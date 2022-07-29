@@ -1,0 +1,220 @@
+
+body{
+    
+    margin: 0px; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.logo{
+        height: 40px;
+        position: absolute;
+        left: 17%;
+        top: 20px;
+}
+
+.menu{
+    
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+nav ul {
+    
+    list-style: none;
+    float: right;
+    margin-right: 20%;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.linea{
+    display: inline-block;
+    
+    margin-right: 20px;
+    width: 2px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menu li :hover {
+color: rgb(30, 245, 96);
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.contenido{
+    height: 100vh;
+    background-color: rgb(41, 65, 171);
+    color: rgb(30, 215, 96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido h1{
+    font-size: 104px;
+    line-height: 104px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+   
+    
+}
+
+.contenido button{
+    padding: 15px 30px 15px 30px;
+    margin-top: 2rem;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgb(30, 215, 96) ;
+    border-radius: 600px;
+    border: 3px;
+    color:rgb(41, 65, 171) ;
+        
+    cursor: pointer;
+}
+
+.contenido button:hover{
+    background-color:rgb(30, 245, 96) ;
+    transform: scale(1.05);
+    
+}
+
+.circulo{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1ed760;
+}
+
+.circulo_1{
+    width: 60vh;
+    height: 60vh;
+    bottom: 30%;
+    right: 0;
+    transform: translateX(80%);
+}
+
+.circulo_2{
+    width: 35vh;
+    height: 35vh;
+    bottom: 0;
+    left: 0;
+    
+    transform: translateX(-200px);
+}
+
+.circulo_3{
+    width: 70vh;
+    height: 70vh;
+    bottom: 0;
+    left: -5%;
+    transform: translateY(85%);
+}
+
+h5{
+    margin: 0;
+    color: rgb(145, 148, 150);
+    opacity: 0.6;
+}
+
+footer *{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 530px;
+    position: relative;
+    z-index: 2px;  
+}
+
+
+
+footer li :hover{
+    color: rgb(30, 245, 96);
+}
+
+.cont_empresa {
+    
+    display: inline-block;
+    margin-left: 30vw;
+    
+    transform: translateY(-47%);
+}
+
+.cont_comunidades {
+    
+    display: inline-block;
+    margin-left: 5vw;
+    margin-top: 90px; 
+     
+}
+
+.cont_utiles {
+    
+    display: inline-block;
+    margin-left: 5vw;
+    transform: translateY(-47%);  
+}
+
+.lista_redes li {
+    
+    display: inline-block;
+}
+
+.lista_redes li img {
+    padding: 10px;
+    max-width: 30px;
+}
+.cont_redes {
+    padding-left: 10vw;
+    transform: translateY(-190%);
+    display: inline-block;   
+}
+
+li a  :hover{
+    filter: invert(59%) sepia(99%) saturate(600%) hue-rotate(87deg) brightness(100%) contrast(87%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 952px){
+    #icon{display: block;}
+
+}
+
+@media (max-width: 858px){
+    
+}
+

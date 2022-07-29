@@ -1,0 +1,281 @@
+.seccion_P1{
+    height: 369px;
+    background-color: rgb(29, 117, 222);
+}
+
+.contenedor_P1{
+    height: 369px;
+    width: 1140px;
+    margin: 0 auto 0 auto;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.boton_main_comenzar{
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    padding: 17px 30px 17px 30px;
+    
+    
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 600px;
+    border: 3px;
+    color:rgb(255, 255, 255) ;
+
+    cursor: pointer;
+}
+
+.boton_main_comenzar:hover{
+    transform: scale(1.05);
+}
+
+.boton_main_plan{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 28px 15px 28px;
+    
+    
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgb(29, 117, 222) ;
+    border-radius: 600px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255) ;
+
+    cursor: pointer;
+}
+
+.boton_main_plan:hover{
+    transform: scale(1.05);
+}
+
+
+.p_condiciones_main p{
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 0.7rem; 
+}
+
+.p_condiciones_main p a{
+    
+    
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.seccion_P2{
+    height: 575px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.iconos_beneficios {
+    height: 310px;
+    margin-top: 60px;
+    
+    
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    text-align: center;
+    list-style: none;
+}
+
+.iconos_beneficios li{
+    margin: 0 40px 0 40px;
+    
+}
+
+.iconos_beneficios li p b{
+    font-size: 1.2rem;
+}
+
+.iconos_beneficios li p {
+    font-size: 0.9rem;
+}
+
+
+
+.iconos_beneficios img{
+    max-width: 150px;
+}
+
+.seccion_P3{
+    height: 996px;
+    
+    text-align: center;
+    
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+
+.contenedor{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contenedor_plan{
+    
+    height: 660px;
+    width: 270px;
+    display: inline-block;
+    
+    margin: 50px 8px 0 8px;
+
+    text-align: left;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+
+.contenedor_plan{
+    box-shadow: 0px 0px 5px 5px rgb(197, 197, 197);
+}
+
+.contenedor_plan h3{
+    margin-left: 20px;
+
+    font-weight: bold;
+    font-size: 1.4rem;
+    
+}
+
+/*.planes{
+    display: block;
+}*/
+
+.box_azul{
+    padding: 5px;
+    display: inline-block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 114, 234);
+    border-radius: 5px;   
+}
+
+.box_blanco{
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(13, 114, 234);
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: rgb(13, 114, 234);
+    border-radius: 5px;
+    
+}
+
+.para_box_planes{
+    padding-left: 20px;
+    margin-bottom: 0;
+
+    list-style: none;
+}
+
+.caracteristica_planes{
+    height: 200px;
+
+    margin-right: 30px;
+    margin-bottom: 60px;
+   
+    font-size: 1rem;
+    
+    list-style-type: '\2713';
+}
+
+
+
+.p_regla_pago{
+    margin: 5px 0 0 20px;
+    font-size: 0.9rem;
+}
+
+.p_condiciones{
+    height: 100px;
+    margin: 20px 0 0 20px;
+
+    font-size: 0.75rem;
+
+    color: rgb(122, 122, 122);
+}
+
+.p_condiciones p a{
+    margin: 0 3px 0 0;
+    color: rgb(122, 122, 122);
+}
+
+
+
+.boton_plan{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 80px 15px 80px;
+    
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 600px;
+    border: 3px;
+    color:rgb(255, 255, 255) ;
+
+    cursor: pointer;
+}
+
+.boton_plan:hover{
+    transform: scale(1.05);
+}
+
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 0;
+    display: inline-block;
+    
+    font-size: 2.5rem;
+    letter-spacing: -0.04em;
+
+}
+
+h3{
+    font-weight: lighter;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+@media (max-width: 952px){
+    #icon{display: block;}
+
+}
+
+
